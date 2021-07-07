@@ -1,5 +1,3 @@
-import React from 'react'
-
 import App from './App' 
 import AppV2 from './AppV2'
 

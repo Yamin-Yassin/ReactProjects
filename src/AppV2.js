@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Table from './TableV2'
 import Form from './FormV2'
 
