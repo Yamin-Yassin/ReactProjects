@@ -1,7 +1,7 @@
-import App from './App' 
-import AppV2 from './AppV2'
+import AppV2 from "./comHooks/AppV2"
+import App from "./SemHooks/App"
 
-export default function Main(){
+export default function Main(){s
 
     return(
     <div>
