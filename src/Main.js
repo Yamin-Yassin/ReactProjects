@@ -1,13 +1,12 @@
+import App from "./semHooks/App"
 import AppV2 from "./comHooks/AppV2"
-import App from "./SemHooks/App"
+import AppV3 from "./useContext/AppV3"
 
-export default function Main(){s
+export default function Main(){
 
     return(
     <div>
-        <App/>
-        <AppV2/>
+        <AppV3/>
     </div>
-       
     )
 }
