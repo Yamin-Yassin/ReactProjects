@@ -7,7 +7,6 @@ const moods = {
 
 const MoodContext = createContext(moods)
 
-
 const MoodEmoji = () => {
     const mood = useContext(MoodContext)
 
@@ -23,9 +22,7 @@ export default function AppV3() {
             setCurrentMood(moods.sad)
         }else{
             setCurrentMood(moods.happy)
-        }
-
-            
+        }  
     }
 
     return (
